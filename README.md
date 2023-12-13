@@ -1,1 +1,1 @@
-# edl-practica-pilas
+# Práctica 2: Pilas
