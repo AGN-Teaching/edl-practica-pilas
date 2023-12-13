@@ -12,10 +12,12 @@ float evaluar(std::string posfija);
 
 
 std::string in2pos(std::string infija) {
+    // implementar
     return "";
 }
 
 float evaluar(std::string posfija) {
+    // implementar
     return 0;
 }
 
