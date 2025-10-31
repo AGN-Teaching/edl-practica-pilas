@@ -2,23 +2,30 @@
 #define POSFIJA_H
 
 #include <string>
-
-#include "pila.h"
-
-std::string in2pos(std::string infija);
-
-float evaluar(std::string posfija);
+#include "pila_dinamica.h"
 
 
-
+/**
+ * Convierte la expresión en <code>infija<\code> a notación posfija.
+ * @param infija la expresión en notación infija.
+ * @return un <code>string<code> la expresión en notación posfija.
+ */
 std::string in2pos(std::string infija) {
+    std::string posfija = "";
     // implementar
-    return "";
+    return posfija;
 }
 
+
+/**
+ * Evalúa la expresión en notación <code>posfja<\code>.
+ * @param posfija la expresión que se quiere evaluar.
+ * @return el resultado de la evaluación de la expresión.
+ */
 float evaluar(std::string posfija) {
+    float res;
     // implementar
-    return 0;
+    return res;
 }
 
-#endif
+#endif // POSFIJA_H
